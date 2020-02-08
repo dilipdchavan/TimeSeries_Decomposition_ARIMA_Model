@@ -55,13 +55,14 @@ In ARIMA, there isn't a decomposition of such type. It's a generalization of ARM
 
 ### Time Series Forecasting Model Evaluation -MAPE
 
-Forecast window (months)	Holt-Winters	Manual ARIMA1	Manual ARIMA2	Auto ARIMA 
-3	1.18%	0.65%	0.41%	0.45%
-6	1.81%	1.20%	0.74%	0.85%
-12	1.88%	1.62%	1.20%	1.12%
-18	2.10%	1.92%	1.28%	1.14%
-24	2.03%	2.28%	1.24%	1.11%
-36	1.98%	3.58%	1.62%	1.61%
+|Forecast window (months)|	Holt-Winters|	Manual ARIMA1|	Manual ARIMA2|	Auto ARIMA | 
+|------------------------|:------------:|:------------:|:-------------:|:-----------:|
+|3                       |1.18%	        |0.65%	       |0.41%	         |0.45%        |
+|6	                     |1.81%	        |1.20%	       |0.74%	         |0.85%        |
+|12	                     |1.88%        	|1.62%	       |1.20%	         |1.12%        |
+|18	                     |2.10%	        |1.92%	       |1.28%	         |1.14%        |
+|24	                     |2.03%	        |2.28%	       |1.24%	         |1.11%        |
+|36	                     |1.98%	        |3.58%	       |1.62%	         |1.61%        |
 
 MAPE should be lesser for better model performance.
 
